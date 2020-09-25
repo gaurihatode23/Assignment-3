@@ -1,0 +1,7 @@
+--- Why Dict is an important DS?
+1.Easy to access values with the unique key, when its known and non-repeatable
+2.Manipulating the data is much faster for dictionary than other DSs.
+
+--- Reason behind not consisting of same order ---> Why(Indexing)- Key
+1.Saving space by sharing hash tables of multiple dictionries with the same set of keys
+2.The order of the keys isn't guaranteed in dictionaries as it's a hashtable. Hashtable uses idexing concept. In particular, it wouldn't remember the order in which keys are added as long as the key is unique.
